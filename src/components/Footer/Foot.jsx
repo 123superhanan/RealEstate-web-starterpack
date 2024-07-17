@@ -1,12 +1,13 @@
 import React from 'react'
-import { FaWhatsapp } from "react-icons/fa";
 import "./Foot.css"
-
+import { FaRegCopyright } from "react-icons/fa6";
+import { CiHeart } from "react-icons/ci";
 const Foot = () => {
   return (
     <>
         <div className="f-warpper">
-            <div className="paddings innerWidth  f-container">
+            <div className=" f-container">
+              <div className="paddings innerWidth  f-contant">
     <div className="flexColStart  f-left">
         <img src="./logo2.png" alt="logo2" />
         <span className='secondaryText'>Our vision is to make all people
@@ -23,19 +24,17 @@ const Foot = () => {
 <a href="">About Us</a>
 </div>
 
+
 </div>
 
             </div>
-           
-            </div>
-            <div className="innerWidth paddings button3">
-             <div className="inner">
-             < FaWhatsapp size={24} />
-             <a href=" https://wa.me/03215533310">CHAT WITH ME</a>
-             
-              </div> 
-
+            <div className="trade">
+          <p><FaRegCopyright id="icc" size={16} color={"#fff"}/> made by <CiHeart  id="iee"size={16} color={"#fff"} fontWeight={600} /> Abdul Hanan abbasi</p>
         </div>
+            </div>
+            
+            </div>
+           
         
     </>
   )

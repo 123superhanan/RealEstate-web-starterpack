@@ -12,32 +12,3 @@
     filter: blur(100px);
     border-radius: 100px;
 }
-.trade{
-    margin-top: 5vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  gap: 1rem;
-   
-}
-.trade p {
-    font-size: medium;
-    font-weight: 400;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    text-transform: capitalize;
-}
-.trade #icc{
-    transition: all linear 0.5s;
-}
-.trade #icc:hover{
-    transform: translateY(-5px);
-    color: #000;
-}
-.trade #iee{
-    transition: all linear 0.5s;
-}
-.trade #iee:hover{
-    transform: translateY(-5px);
-    color: #000;
-}
